@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link Tailwind -->
+    <link href="src/output.css" rel="stylesheet">
+    <!-- Link Favicon -->
+    <link rel="icon" type="image/x-icon" href="src/img/favicon_io/favicon.ico">
+    <title>Solar System</title>
+</head>
+<body>
+  <!-- Header Start -->
+  <header class="absolute bg-white top-0 left-0 w-full z-10 items-center">
+    <div class="w-full ml-auto mr-auto px-[16px] py-[19px]">
+      <div class="relative flex justify-between items-center">
+        <a href="#" class="text-2xl font-semibold text-gray-900 flex items-center">
+          <svg class="mr-2 h-8" role="img" width="30px" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Solar System</title><path d="M22.337 3.28c-.108 0-.22.007-.336.017-1.553.129-3.886.917-6.557 2.217a7.326 7.326 0 0 0-3.71-.994c-4.124 0-7.478 3.354-7.478 7.496 0 .674.093 1.33.262 1.95-3.224 2.697-5.04 5.153-4.385 6.221.712 1.125 3.992.412 8.115-1.556a7.55 7.55 0 0 0 3.484.863c4.124 0 7.48-3.356 7.48-7.478 0-.544-.058-1.086-.17-1.592 3.504-2.867 5.529-5.491 4.816-6.615-.24-.375-.768-.545-1.521-.53Zm-4.324 1.708c-1.912.769-4.666 1.706-5.64 3.711-.564 1.143.371 2.436.84 3.035.47.62 1.35 2.174-.13 3.786-1.5 1.63-7.028 3.318-7.028 3.318 1.78-.843 4.91-2.06 5.396-4.16.375-1.593-1.142-2.493-1.555-3.205-.412-.712-.842-1.93 1.313-3.54 2.156-1.631 6.804-2.945 6.804-2.945Zm1.02.758c.67-.007 1.153.151 1.378.498.43.675-.207 1.95-1.556 3.393a7.514 7.514 0 0 0-2.323-3.393c.975-.318 1.832-.49 2.502-.498zM4.8 14.79a7.627 7.627 0 0 0 2.305 3.074c-1.762.525-3.074.524-3.467-.113-.394-.618.075-1.706 1.162-2.96z"/></svg>
+          Solar System
+        </a>
+        <div class="flex items-center">
+          <button id="humberger" name="humberger" type="button" class="absolute block right-4 lg:hidden">
+            <span class="humberger-line origin-top-left transition duration-500 ease-in-out"></span>
+            <span class="humberger-line transition duration-500 ease-in-out "></span>
+            <span class="humberger-line transition duration-500 ease-in-out origin-bottom-left "></span>
+          </button>
+          <nav id="nav-menu" class="absolute py-6 right-4 max-w[250px] w-full bg-white top-full rounded-lg shadow-lg hidden lg:flex lg:static lg:max-w-full lg:bg-transparent lg:shadow-none lg:h-2 lg:items-center">
+            <ul class="block lg:flex">
+              <li class="group">
+                <a href="" class="text-base py-2 mx-8 flex group-hover:text-blue-400">Home</a>
+              </li>
+              <li class="group">
+                <a href="" class="text-base py-2 mx-8 flex group-hover:text-blue-400">Structure</a>
+              </li>
+              <li class="group">
+                <a href="" class="text-base py-2 mx-8 flex group-hover:text-blue-400">Information</a>
+              </li>
+              <li class="group">
+                <a href="" class="text-base py-2 mx-8 flex group-hover:text-blue-400">About Us</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Header End -->
+
+    <!-- Section Home Start -->
+    <section id="home" class="bg-black">
+      <div class="w-full relative h-screen">
+        <img src="src/img/wallpaperflare.com_wallpaper copy.jpg" alt="background" class="w-full h-full absolute object-cover">
+        <div class="absolute top-0 left-0 w-full h-full bg-gray-900/50">
+          <div class="absolute w-full h-full justify-center text-center top-0 left-0 flex flex-col">
+            <h1 class="text-white text-4xl font-bold mb-3 md:text-5xl">Solar </span> <span class="text-blue-400">System</span></h1>
+            <p class="text-white text-lg mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <div class="flex flex-row justify-center">
+              <button class="cursor-pointer mr-3 inline-flex items-center rounded-full px-9 py-3 text-xl font-mono font-semibold text-white hover:text-blue-950 border-2 border-white hover:border-blue-950
+              hover:bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-75 hover:bg-white duration-300 focus:bg-transparent">
+              Enter Now!
+              </button>
+
+              <button class="cursor-pointer mr-3 inline-flex items-center rounded-full px-9 py-3 text-xl font-mono font-semibold text-white hover:text-blue-950 border-2 border-white hover:border-blue-950
+              hover:bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-75 hover:bg-white duration-300  focus:bg-transparent">
+              Register Now!
+              </button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section Home End -->
+  
+    <!-- Section Picture Start -->
+    <section id="picture" class="bg-black">
+      <div class="max-w-[1240px] mx-auto py-16 px-4 text-center">
+        <h1 class="font-bold text-xl mb-3 text-white">Structure & Composition</h1>
+        <p class="font-semibold text-slate-500 mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="grid grid-rows-none gap-2 md:grid-cols-5">
+          <img src="src/img/wallpaperflare.com_wallpaper copy 2.jpg" alt="/" class="w-full h-full object-cover col-span-2 md:col-span-3 row-span-2">
+          <img src="src/img/wallpaperflare.com_wallpaper.jpg" alt="/" class="w-full h-full object-cover">
+          <img src="src/img/wallpaperflare.com_wallpaper (1).jpg" alt="/" class="w-full h-full object-cover">
+          <img src="src/img/wallpaperflare.com_wallpaper (2).jpg" alt="/" class="w-full h-full object-cover">
+          <img src="src/img/wallpaperflare.com_wallpaper (3).jpg" alt="/" class="w-full h-full object-cover">
+          <img src="src/img/wallpaperflare.com_wallpaper (4).jpg" alt="/" class="w-full h-full object-cover">
+          <img src="src/img/wallpaperflare.com_wallpaper (5).jpg" alt="/" class="w-full h-full object-cover">
+          <img src="src/img/wallpaperflare.com_wallpaper (6).jpg" alt="/" class="w-full h-full object-cover">
+          <img src="src/img/wallpaperflare.com_wallpaper (7).jpg" alt="/" class="w-full h-full object-cover">
+          <img src="src/img/sun-solnce-siyanie-zvezda.jpg" alt="/" class="w-full h-full object-cover">
+        </div>
+      </div>
+    </section>
+    <!-- Section Picture End -->
+    
+    <!-- Section Card Start -->
+    <section id="card">
+        <div class="max-w-[1240px] mx-auto py-16 px-4 text-center">
+          <h1 class="font-bold text-xl mb-10">Aditional Information</h1>
+          <div class="grid gap-10 grid-cols-5">
+            <div class="w-60 h-80 bg-neutral-800 rounded-3xl text-neutral-300 p-4 flex flex-col items-start justify-center gap-3 hover:bg-gray-900 hover:shadow-2xl hover:shadow-sky-400 transition-shadow">
+              <div class="w-52 h-40 bg-sky-300 rounded-2xl">
+                <img class="object-cover w-52 h-40 rounded-2xl" src="src/img/wallpaperflare.com_wallpaper.jpg" alt="">
+              </div>
+              <div class="">
+                  <p class="font-extrabold">Mercury</p>
+                  <p class="text-sm">Mercury is the first planet from the Sun</p>
+              </div>
+              <a href="https://en.wikipedia.org/wiki/Mercury_(planet)"><button class="bg-sky-700 font-extrabold p-2 px-6 rounded-xl hover:bg-sky-500 transition-colors">See more</button></a>
+            </div>
+
+            <div class="w-60 h-80 bg-neutral-800 rounded-3xl text-neutral-300 p-4 flex flex-col items-start justify-center gap-3 hover:bg-gray-900 hover:shadow-2xl hover:shadow-sky-400 transition-shadow">
+              <div class="w-52 h-40 bg-sky-300 rounded-2xl">
+                <img class="object-cover w-52 h-40 rounded-2xl" src="src/img/wallpaperflare.com_wallpaper (1).jpg" alt="">
+              </div>
+              <div class="">
+                  <p class="font-extrabold">Venus</p>
+                  <p class="text-sm">Venus is the second planet from the Sun</p>
+              </div>
+              <a href="https://en.wikipedia.org/wiki/Venus"><button class="bg-sky-700 font-extrabold p-2 px-6 rounded-xl hover:bg-sky-500 transition-colors">See more</button></a>
+            </div>
+
+            <div class="w-60 h-80 bg-neutral-800 rounded-3xl text-neutral-300 p-4 flex flex-col items-start justify-center gap-3 hover:bg-gray-900 hover:shadow-2xl hover:shadow-sky-400 transition-shadow">
+              <div class="w-52 h-40 bg-sky-300 rounded-2xl">
+                <img class="object-cover w-52 h-40 rounded-2xl" src="src/img/wallpaperflare.com_wallpaper (2).jpg" alt="">
+              </div>
+              <div class="">
+                  <p class="font-extrabold">Earth</p>
+                  <p class="text-sm">Earth is the third planet from the Sun</p>
+              </div>
+              <a href="https://en.wikipedia.org/wiki/Earth"><button class="bg-sky-700 font-extrabold p-2 px-6 rounded-xl hover:bg-sky-500 transition-colors">See more</button></a>
+            </div>
+
+            <div class="w-60 h-80 bg-neutral-800 rounded-3xl text-neutral-300 p-4 flex flex-col items-start justify-center gap-3 hover:bg-gray-900 hover:shadow-2xl hover:shadow-sky-400 transition-shadow">
+              <div class="w-52 h-40 bg-sky-300 rounded-2xl">
+                <img class="object-cover w-52 h-40 rounded-2xl" src="src/img/wallpaperflare.com_wallpaper (3).jpg" alt="">
+              </div>
+              <div class="">
+                  <p class="font-extrabold">Mars</p>
+                  <p class="text-sm">Mars is the fourth planet from the Sun</p>
+              </div>
+              <a href="https://en.wikipedia.org/wiki/Mars"><button class="bg-sky-700 font-extrabold p-2 px-6 rounded-xl hover:bg-sky-500 transition-colors">See more</button></a>
+            </div>
+
+            <div class="w-60 h-80 bg-neutral-800 rounded-3xl text-neutral-300 p-4 flex flex-col items-start justify-center gap-3 hover:bg-gray-900 hover:shadow-2xl hover:shadow-sky-400 transition-shadow">
+              <div class="w-52 h-40 bg-sky-300 rounded-2xl">
+                <img class="object-cover w-52 h-40 rounded-2xl" src="src/img/wallpaperflare.com_wallpaper (4).jpg" alt="">
+              </div>
+              <div class="">
+                  <p class="font-extrabold">Jupiter</p>
+                  <p class="text-sm">Jupiter is the fifth planet from the Sun</p>
+              </div>
+              <a href="https://en.wikipedia.org/wiki/Jupiter"><button class="bg-sky-700 font-extrabold p-2 px-6 rounded-xl hover:bg-sky-500 transition-colors">See more</button></a>
+            </div>
+
+            <div class="w-60 h-80 bg-neutral-800 rounded-3xl text-neutral-300 p-4 flex flex-col items-start justify-center gap-3 hover:bg-gray-900 hover:shadow-2xl hover:shadow-sky-400 transition-shadow">
+              <div class="w-52 h-40 bg-sky-300 rounded-2xl">
+                <img class="object-cover w-52 h-40 rounded-2xl" src="src/img/wallpaperflare.com_wallpaper (5).jpg" alt="">
+              </div>
+              <div class="">
+                  <p class="font-extrabold">Saturn</p>
+                  <p class="text-sm">Saturn is the sixth planet from the Sun</p>
+              </div>
+              <a href="https://en.wikipedia.org/wiki/Saturn"><button class="bg-sky-700 font-extrabold p-2 px-6 rounded-xl hover:bg-sky-500 transition-colors">See more</button></a>
+            </div>
+
+            <div class="w-60 h-80 bg-neutral-800 rounded-3xl text-neutral-300 p-4 flex flex-col items-start justify-center gap-3 hover:bg-gray-900 hover:shadow-2xl hover:shadow-sky-400 transition-shadow">
+              <div class="w-52 h-40 bg-sky-300 rounded-2xl">
+                <img class="object-cover w-52 h-40 rounded-2xl" src="src/img/wallpaperflare.com_wallpaper (6).jpg" alt="">
+              </div>
+              <div class="">
+                  <p class="font-extrabold">Uranus</p>
+                  <p class="text-sm">Uranus is the seventh planet from the Sun</p>
+              </div>
+              <a href="https://en.wikipedia.org/wiki/Uranus"><button class="bg-sky-700 font-extrabold p-2 px-6 rounded-xl hover:bg-sky-500 transition-colors">See more</button></a>
+            </div>
+
+            <div class="w-60 h-80 bg-neutral-800 rounded-3xl text-neutral-300 p-4 flex flex-col items-start justify-center gap-3 hover:bg-gray-900 hover:shadow-2xl hover:shadow-sky-400 transition-shadow">
+              <div class="w-52 h-40 bg-sky-300 rounded-2xl">
+                <img class="object-cover w-52 h-40 rounded-2xl" src="src/img/wallpaperflare.com_wallpaper (7).jpg" alt="">
+              </div>
+              <div class="">
+                  <p class="font-extrabold">Neptune</p>
+                  <p class="text-sm">Neptune is the eighth and farthest planet from the Sun</p>
+              </div>
+              <a href="https://en.wikipedia.org/wiki/Neptune"><button class="bg-sky-700 font-extrabold p-2 px-6 rounded-xl hover:bg-sky-500 transition-colors">See more</button></a>
+            </div>
+
+            <div class="w-60 h-80 bg-neutral-800 rounded-3xl text-neutral-300 p-4 flex flex-col items-start justify-center gap-3 hover:bg-gray-900 hover:shadow-2xl hover:shadow-sky-400 transition-shadow">
+              <div class="w-52 h-40 bg-sky-300 rounded-2xl">
+                <img class="object-cover w-52 h-40 rounded-2xl" src="src/img/sun-solnce-siyanie-zvezda.jpg" alt="">
+              </div>
+              <div class="">
+                  <p class="font-extrabold">Sun</p>
+                  <p class="text-sm">The Sun is the star at the center of the Solar System</p>
+              </div>
+              <a href="https://en.wikipedia.org/wiki/Sun"><button class="bg-sky-700 font-extrabold p-2 px-6 rounded-xl hover:bg-sky-500 transition-colors">See more</button></a>
+            </div>
+
+            <div class="w-60 h-80 bg-neutral-800 rounded-3xl text-neutral-300 p-4 flex flex-col items-start justify-center gap-3 hover:bg-gray-900 hover:shadow-2xl hover:shadow-sky-400 transition-shadow">
+              <div class="w-52 h-40 bg-sky-300 rounded-2xl">
+                <img class="object-cover w-52 h-40 rounded-2xl" src="src/img/wallpaperflare.com_wallpaper copy 2.jpg" alt="">
+              </div>
+              <div class="">
+                  <p class="font-extrabold">Milky Way</p>
+                  <p class="text-sm">The Milky Way is the galaxy that includes the Solar System</p>
+              </div>
+              <a href="https://en.wikipedia.org/wiki/Milky_Way"><button class="bg-sky-700 font-extrabold p-2 px-6 rounded-xl hover:bg-sky-500 transition-colors">See more</button></a>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- Section Card End -->
+    
+    <!-- Section Social Media Start -->
+    <section id="about">
+         <div class="max-w-[1240px] mx-auto py-16 px-4 bgk">
+          <div class="flex flex-wrap">
+            <div class="w-full px-4 lg:w-1/2 mb-3">
+              <h1 class="font-bold text-x1 mb-3">About Us</h1>
+              <h3 class="font-semibold text-2xl uppercase mb-2">Lorem ipsum dolor sit amet.</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse amet possimus dolore, autem enim voluptas?</p>
+            </div>
+            <div class="w-full px-4 mb-3 lg:w-1/2">
+              <h1 class="font-semibold text-2xl mb-2">Social Media</h1>
+              <p class="mb-2">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+              <div class="flex items-center">
+                <a href="#" class="border rounded-full w-9 h-9 flex justify-center items-center mr-3  border-black hover:bg-gradient-to-tr from-red-600 to-blue-900 hover:text-white hover:border-none transition duration-500 ease-in-out">
+                  <svg role="img" width="20px" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg>
+                </a>
+                <a href="#" class="border rounded-full w-9 h-9 flex justify-center items-center mr-3  border-black hover:bg-x hover:text-white hover:border-none transition duration-500 ease-in-out">
+                  <svg role="img" width="20px" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>YouTube</title><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                </a>
+                <a href="#" class="border rounded-full w-9 h-9 flex justify-center items-center mr-3  border-black hover:bg-xxx hover:text-white hover:border-none transition duration-500 ease-in-out">
+                  <svg role="img" width="20px" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg>
+                </a>
+                <a href="#" class="border rounded-full w-9 h-9 flex justify-center items-center mr-3  border-black hover:bg-black hover:text-white hover:border-none transition duration-500 ease-in-out">
+                  <svg role="img" width="20px" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>X</title><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+         </div>
+    </section>
+    <!-- Section Social Media End -->
+
+    <!-- Footer Start -->
+    <footer class="p-4 bg-white md:p-8 lg:p-10">
+      <div class="mx-auto max-w-screen-xl text-center">
+          <a href="#" class="flex justify-center items-center text-2xl font-semibold text-gray-900">
+            <svg class="mr-2 h-8" role="img" width="30px" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Solar System</title><path d="M22.337 3.28c-.108 0-.22.007-.336.017-1.553.129-3.886.917-6.557 2.217a7.326 7.326 0 0 0-3.71-.994c-4.124 0-7.478 3.354-7.478 7.496 0 .674.093 1.33.262 1.95-3.224 2.697-5.04 5.153-4.385 6.221.712 1.125 3.992.412 8.115-1.556a7.55 7.55 0 0 0 3.484.863c4.124 0 7.48-3.356 7.48-7.478 0-.544-.058-1.086-.17-1.592 3.504-2.867 5.529-5.491 4.816-6.615-.24-.375-.768-.545-1.521-.53Zm-4.324 1.708c-1.912.769-4.666 1.706-5.64 3.711-.564 1.143.371 2.436.84 3.035.47.62 1.35 2.174-.13 3.786-1.5 1.63-7.028 3.318-7.028 3.318 1.78-.843 4.91-2.06 5.396-4.16.375-1.593-1.142-2.493-1.555-3.205-.412-.712-.842-1.93 1.313-3.54 2.156-1.631 6.804-2.945 6.804-2.945Zm1.02.758c.67-.007 1.153.151 1.378.498.43.675-.207 1.95-1.556 3.393a7.514 7.514 0 0 0-2.323-3.393c.975-.318 1.832-.49 2.502-.498zM4.8 14.79a7.627 7.627 0 0 0 2.305 3.074c-1.762.525-3.074.524-3.467-.113-.394-.618.075-1.706 1.162-2.96z"/></svg>
+            Solar System  
+          </a>
+          <p class="my-6 text-gray-500 dark:text-gray-400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum fugiat totam iusto omnis odio nostrum.</p>
+          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="#" class="hover:underline">Anaga Ghaisan Abhista™</a>. All Rights Reserved.</span>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Link Js -->
+    <script src="src/js/script.js"></script>
+
+</body>
+</html>
